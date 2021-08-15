@@ -50,7 +50,7 @@ test:
 #
 production:
   <<: *default
-  database: APIrakuten_production
-  username: APIrakuten
-  password: <%= ENV['APIRAKUTEN_DATABASE_PASSWORD'] %>
-  host: <%= ENV['HOSTNAME'] %>
+  database: RakutenAPI_production
+  username: root
+  password: <%= Rails.application.credentials.db[:password] %>
+  host: <%= Rails.application.credentials.db[:hostname] %>
