@@ -1,0 +1,15 @@
+current directory: /Users/hisadomi/workspace/Yanbaru/rakuten/APIrakuten/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/hisadomi/.rbenv/versions/2.7.4/bin/ruby -I /Users/hisadomi/.rbenv/versions/2.7.4/lib/ruby/2.7.0 -r ./siteconf20210815-98955-x72k2m.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hisadomi/workspace/Yanbaru/rakuten/APIrakuten/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/hisadomi/workspace/Yanbaru/rakuten/APIrakuten/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/hisadomi/workspace/Yanbaru/rakuten/APIrakuten/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20210815-98955-19xa9q1/skiptrace/internal
