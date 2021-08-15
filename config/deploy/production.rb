@@ -60,10 +60,10 @@
 #     # password: "please use keys"
 #   }
 
-# server "52.69.171.248", user: "ec2-user", roles: %w{app db web}
+server "52.69.171.248", user: "ec2-user", roles: %w{app db web}
 
-# set :ssh_options, {
-#   keys: %w(~/.ssh/RakutenAPI.pem),
-#   forward_agent: true,
-#   auth_methods: %w(publickey),
-# }
+set :ssh_options, {
+  keys: %w(~/.ssh/RakutenAPI.pem),
+  forward_agent: true,
+  auth_methods: %w(publickey),
+}
